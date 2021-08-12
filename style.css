@@ -23,3 +23,52 @@
     padding: 9px 25px;
     cursor: pointer;
 }
+
+.buy-now:hover {
+    border: 1px solid black;
+}
+
+.cat1 {
+    background-image: linear-gradient(45deg, rgb(240, 190, 97), orange);
+}
+
+.cat2 {
+    background-image: linear-gradient(45deg, rgb(238, 138, 235), orchid);
+}
+
+.cat3 {
+    background-image: linear-gradient(45deg, rgb(104, 104, 240), rgb(47, 47, 253));
+}
+
+.cat1, .cat2, .cat3 {
+    padding: 10px 30px;
+    color: white;
+    border-radius: 10px;
+}
+
+.categories img {
+    width: 150px;
+}
+
+.card {
+    border: none;
+    box-shadow: 5px 5px 10px lightgray;
+    border-radius: px;
+}
+
+.card-footer {
+    background-color: white;
+    border-top: none;
+}
+
+#subscribe {
+    height: 300px;
+}
+
+#subscribe h6 {
+    color: gray;
+}
+
+footer {
+    text-align: center;
+}
